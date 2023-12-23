@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2> Multiple Timers App </h2>
+    <form>
+        <label> Set Time : </label>
+        <input type="number" name="hour" placeholder="hh" min="0" max="24" > :
+        <input type="number" name="minute" placeholder="mm" min="0" max="60" > :
+        <input type="number" name="second" placeholder="ss" min="0" max="60" >
+        <button id="setTimer" style="padding: 5px; background-color: yellow;"> Set Timer </button>
+    </form>
+    <button id="viewTimer" style="padding: 10px 50px; background-color: #39393E;color:white;"> Current Timers </button>
+    <p id="displayMsgPara"> You have no timers currently </p>
+  </div>
+
+  <div class="viewContainer">
+    
+  </div>
+
+
+    <script src="index.js"></script>
+    <script src="add.js"></script>
+    <script src="delete.js"></script>
+    <script src="view.js"></script>
+</body>
+</html>
